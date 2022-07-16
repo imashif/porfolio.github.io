@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.Front-end{
+    max-width: 100%;
+    height: 100vh;
+    /* background:#efefef; */
+    background-size: cover;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+header{
+    width: 100%;
+    height: 90px;
+    background: linear-gradient( to bottom, #e5eab2, #d2dbe2);
+    z-index: 999;
+}
+.logo{
+    max-height: 70px;
+    margin-top: -15px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 35px;
+   
+}
+nav ul li a{
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: #fd4766;
+}
+nav ul li a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3.5px;
+    background: #fd4766;
+    transition: .3s;
+    bottom: 0;
+}
+nav ul li a:hover:after{
+    width: 100%;
+}
+.download_btn a{
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #efefef;
+    padding: 10px 32px;
+    color: #fff;
+    margin-top: 1.5rem;
+    background: linear-gradient(to right, #1c99fe, #fd4766);
+    letter-spacing: 1px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+.download_btn a:hover{
+    border-color: #efefef;
+    background: linear-gradient(to top, #1c99fe, #fd4766);
+    color: #000;
+}
+.ashif{
+    text-align: right;
+}
+.content{
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content .title{
+    color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 22.69%, #7644ff 60.19%,#fd4766 70.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1{
+    color: #1f1f25;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span{
+    color: #fd4766;
+}
+.content p{
+    width: 55%;
+    color: #757575;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.aboutUs h2{
+    color: #000;
+    font-size: 70px;
+    font-weight: 900;
+    margin-top: 100px;
+    border-bottom: 5px solid #fd4766; 
+    max-width: fit-content; 
+    text-shadow: 3px 7px 4px #fd4766;  
+}
+.Education{
+    width: 100%;
+    padding: 70px 50px;
+    background-color: #efefef;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    box-shadow: 1px 1px 10px 1px #8888;
+}
+.Education h3{
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    color: #fd4766;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgb(150, 117, 117);
+}
+.Qualification ul li{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.Qualification p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6rem; 
+}
+.th_item{
+    vertical-align: super;
+    font-size: 1rem;
+    font: 400;
+}
+.talented{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.7rem; 
+}
+.skills{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.skills h2{
+    margin-bottom: 70px;
+}
+.skills ul li {
+    font-size: 25px;
+    font-weight: 500;
+    list-style-type: circle;
+    padding-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+.skills p{
+    border: 1px solid #000;
+    width: 100%;
+    padding: 4.8px 30px;
+    
+}
+.HTML{
+    background-image: url(/img/light.green.PNG);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.CSS{
+    background-image: url(/img/blue.color.PNG);
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.bootstrap{
+    background-image: url(/img/orange.color.PNG);
+    background-size: 45% 100%;
+    background-repeat: no-repeat; 
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.javascript{
+    background-image: url(/img/green.color.PNG);
+    background-size: 30% 100%;
+    background-repeat: no-repeat;    
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.SQL{
+    background-image: url(/img/pink.color.PNG);
+    background-size: 55% 100%;
+    background-repeat: no-repeat;    
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.Language{
+    margin-bottom: 0px;
+}
+.contact h2{
+    margin-bottom: 80px;
+}
+.email_number{
+    max-width: 900px;
+    border: 2px solid #efefef;
+    margin: 0 auto;
+    padding: 70px 50px 80px 50px;
+    text-align: center;
+    background: #efefef;
+    box-shadow: 1px 2px 10px 2px #8888;
+    margin-bottom: 170px;
+}
+.email_number h3{
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(150deg, #e59d29 22.69%, #642dfc 60.19%,#f92f51 70.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.email_number h4{
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(150deg, #e59d29 22.69%, #642dfc 70.19%,#f92f51 80.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+.social_icon a i{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    background: linear-gradient(150deg, #e59d29 22.69%, #642dfc 70.19%,#f92f51 80.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    transition: all 0.3s linear;
+}
+.social_icon a i:hover{
+    background: linear-gradient(100deg, #8b2c06 22.69%, #250778 70.19%,#87d20d 80.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.footer {
+    max-width: 100%;
+    padding: 40px;
+    background: #1f1f25;
+    text-align: center;  
+}
+.footer h3{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
